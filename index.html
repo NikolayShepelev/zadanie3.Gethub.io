@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEB</title>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <img src="IMG_4796.PNG" alt="Logo">
+            <h1>Не судите строго</h1>
+            <div class="null">
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="li-nav"><a href="#s">Ссылка 1</a></li>
+            <li class="li-nav"><a href="#table">Ссылка 2</a></li>
+            <li class="li-nav"><a href="#form">Ссылка 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <ol>
+            <a name="s"></a>
+            <li name="#ss"><a href="http://example.com">example</a></li>
+              <li><a href="https://example.com">example</a></li>
+              <li><a href="ftp://sisadmin.ru/hranilishe/1.txt">Без авторизации</a></li>
+              <li><a href="ftp://test:password@sisadmin.ru/hranilishe/1.txt">С авторизацией</a></li>
+              <li><a href=“https://lavnik.net/gadgets/nexus-5x-obzor-dva-mesyatsa-ispolzovaniya#foto”>Примеры фотографий</a></li>
+              <li><a href="#top">Ссылка на начало страницы</a></li>
+              <li><a href="https://github.com/?branch=master&repo=chat">Ссылка с двумя GET параметрами</a></li>
+              <li><a href="#anchor">Начало страницы</a><a href="#"> Главная</a></li>
+              <li><a>Ссылка без href</a></li>
+              <li><a href="">Ссылка с пустым href</a></li>
+              <li><a href="https://blog.promopult.ru/seo/4-sluchaya-ispolzovaniya-noindex-i-nofollow.html" rel="nofollow">Ссылка nofollow</a></li>
+              <li><a href="https://blog.promopult.ru/seo/4-sluchaya-ispolzovaniya-noindex-i-nofollow.html" rel="noindex">Ссылка noindex</a></li>
+              <li><h3>Пример абзаца</h3>
+                <p>
+                  <a href="https://www.lipsum.com/feed/html">Lorem ipsum</a>
+             </p>
+              </li>
+              <li><a href="https://self-learning.ru/course/sql-basics?utm_source=infocomp&utm_medium=banner&utm_campaign=sqlbasics&utm_content=sidebar"><img src="https://flo.discus-club.ru/images/stories/dekorativnye-kustarniki/rozy/cveta-roz/cveta-roz7.jpg" width="250" height="250" alt="flower"></a></li><li>
+                <img src="https://flo.discus-club.ru/images/stories/dekorativnye-kustarniki/rozy/cveta-roz/cveta-roz7.jpg" width="300" height="300" usemap="#navigation" alt="map">
+                <map name="navigation">
+                  <area shape="circle"
+                  coords="400,400,200"
+                  href="https://www.php.net/manual/ru/book.json.php"
+                  alt="circle">
+                  <area shape="rect"
+                  coords="0,0,200,200"
+                  href="https://info-comp.ru/database-normalization"
+                  alt="rectangle">
+                </map>
+              </li>
+              <li><a href="demo.html">Относительная ссылка на файл в том же каталоге</a></li>
+              <li><a href="about/contacts.html">Относительная ссылка на файл в каталоге about</a></li>
+              <li><a href="./image123.html">Относительная ссылка на файл в каталоге, выше нынешнего на один</a></li>
+              <li><a href="././random.html">Относительная ссылка на файл двумя каталогами выше</a></li>
+              <li><a href="/">Сокращенная ссылка на главную</a></li>
+              <li><a href="/form.html">Сокращенная на внутреннюю</a></li>
+            </ol>
+            <p><a name="s"></a></p>
+            <a name="table"></a>
+            <div class="swap">
+            <div class="div-table">
+                <table border="1">
+                    <tr bgcolor="red">
+                    <th>Ячейка 1</th>
+                    <th>Ячейка 2</th>
+                    <th>Ячейка 3</th>
+                    </tr>
+                    <tr>
+                    <td>654</td>
+                    <td>6546</td>
+                    <td>6546</td>
+                </tr>
+                <tr bgcolor="red">
+                    <td>6546</td>
+                    <td>65464</td>
+                    <td>654645</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Объединенная Ячейка</td>
+                    <td>5325</td>
+                </tr>
+                <tr bgcolor="red">
+                    <td class="border-table">78567</td>
+                    <td>7567</td>
+                    <td>765765</td>
+                </tr>
+                <tr>
+                    <td>765765</td>
+                    <td>4646</td>
+                    <td>6546</td>
+                </tr>
+                </table>
+            </div>
+            <a name="form"></a>
+            <form action="/" method="POST">
+
+                <label>
+                    Введите имя<br>
+                    <input name="field-name-1" placeholder="Malder">
+                </label><br>
+        
+                <label>
+                    Введите email:<br>
+                    <input name="field-email" placeholder="test@example.com" type="email">
+                </label><br>
+        
+                <label>
+                    Введите дату рождения<br>
+                    <input name="field-date" value="2021-09-08" type="date">
+                </label><br>
+        
+                Введите пол:<br>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+                    Мужской</label><br>
+                <label><input type="radio" name="radio-group-1" value="Значение2">
+                    Женский</label><br>
+        
+                Выберите кол-во конечностей:<br>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+                    1</label>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+                    2</label>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+                    3</label>
+                <label><input type="radio" name="radio-group-1" value="Значение4">
+                    4</label>
+                <label><input type="radio" name="radio-group-1" value="Значениие 5">
+                    Больше 4х</label><br>
+        
+                <label>
+                    Сверхспособности:
+                    <br>
+                    <select name="field-name-4[]" multiple="multiple">
+                        <option value="Значение1">Бессмертие(или игра в нарды)</option>
+                        <option value="Значение2" selected="selected">Левитация</option>
+                        <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+                    </select>
+                </label><br>
+        
+                <label>
+                    Биография:
+                    <br>
+                    <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Напишите что-то о себе</textarea>
+                </label><br>
+        
+                <label><input type="checkbox" checked="checked" name="check-1">
+                    с контрактом ознакомлен (а)</label><br>
+        
+                <input type="submit" value="Отправить">
+             </form>
+            </div>
+    </main>
+    <footer>
+        <p class="p-footer">Шепелев Николай Эдуардович 2022</p>
+    </footer>
+
+</body>
+</html>
